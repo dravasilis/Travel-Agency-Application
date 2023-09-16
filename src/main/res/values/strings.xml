@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TravelAgency</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Travel Agency</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_Destinations">Destinations</string>
+    <string name="menu_Agencies">Agencies</string>
+    <string name="menu_Packages">Packages</string>
+
+    <string name="paris">Paris, France</string>
+    <string name="barcelona">Barcelona, Spain</string>
+    <string name="london">London, United Kingdom\n</string>
+    <string name="bahamas">Bahamas, Caribbean Islands</string>
+    <string name="la">Los Angeles, USA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Name">Name</string>
+    <string name="Surname">Surname</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+    <string name="packagecode">Package Code</string>
+
+    <string name="gender">please select your gender</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="menu_Settings">Settings</string>
+    <string name="Queries">Queries</string>
+
+    <string-array name="planets_array">
+        <item>1 Moss Hotel</item>
+        <item>2 Windmill Hotel</item>
+        <item>3 Fancy Hotel</item>
+        <item>4 Grand Palms Hotel</item>
+        <item>5 Zion Hotel</item>
+        <item>6 Lunar Motel</item>
+        <item>7 Rose Cloud Hotel</item>
+        <item>8 Diorama Hotel</item>
+    </string-array>
+    <string name="Q4">Q4:Show all users names and surnames that booked on the hotel with the name "Rose Cloud Hotel"</string>
+    <string name="Q5">Q5:Show all users names and surnames that booked a hotel with a name that starts with the letter "L" and booked a package with Id 2</string>
+    <string name="Q7">Q6:Show all users names and surname whose surname starts with a "K" and booked a package with id 1</string>
+</resources>

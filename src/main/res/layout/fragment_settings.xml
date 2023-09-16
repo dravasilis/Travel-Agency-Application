@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neutral"
+    tools:context=".ui.Settings.SettingsFragment">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="187dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="serif-monospace"
+        android:text="*For deleting only the field 'Id' is required"
+        android:textColor="#453A3A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/packagetriptype"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="    Trip Type"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/packageprice"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/packageprice"
+        android:layout_width="97dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="     Price"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/packagedate"
+        app:layout_constraintTop_toBottomOf="@+id/packageagencyid"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/packagedate"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="        Date"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/packageagencyid"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/packageduration"
+        android:layout_width="77dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Duration"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/packagetripid"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/packagetripid"
+        android:layout_width="66dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Trip Id"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/packageagencyid"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/packageagencyid"
+        android:layout_width="101dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint=" Agency Id"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/packageid"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/packageid"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:ems="10"
+        android:hint="Package Id"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/tripcountry"
+        android:layout_width="164dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="          Country"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/tripcity"
+        app:layout_constraintTop_toBottomOf="@+id/deleteAgency"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/tripcity"
+        android:layout_width="143dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="           City"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/tripid"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/tripid"
+        android:layout_width="56dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="   Id"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/agencyaddress"
+        android:layout_width="231dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="                Address"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agencyname"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/agencyname"
+        android:layout_width="204dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="               Name "
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/agencyid"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/agencyid"
+        android:layout_width="55dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="    Id"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="175dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center|top"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittextradius"
+        android:fontFamily="sans-serif-light"
+        android:text="  Agency Settings:"
+        android:textColor="#EFE9E9"
+        android:textColorHint="#603F3F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addAgency"
+        android:layout_width="105dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@color/teal_700"
+        android:text=" Add   "
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/updateAgency"
+        android:layout_width="118dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Update  "
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/addAgency"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/deleteAgency"
+        android:layout_width="104dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Delete"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/updateAgency"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="212dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edittextradius"
+        android:fontFamily="sans-serif-light"
+        android:text="  Destination Settings:"
+        android:textColor="#F3EBEB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addAgency" />
+
+    <Button
+        android:id="@+id/addDestination"
+        android:layout_width="105dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/teal_700"
+        android:text=" Add   "
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addAgency"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/updateDestination"
+        android:layout_width="118dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Update"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/addDestination"
+        app:layout_constraintTop_toTopOf="@+id/addDestination"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/deleteDestination"
+        android:layout_width="104dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Delete"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/updateDestination"
+        app:layout_constraintTop_toTopOf="@+id/addDestination"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="187dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/edittextradius"
+        android:fontFamily="sans-serif-light"
+        android:text="  Package Settings:"
+        android:textColor="#EFE9E9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDestination" />
+
+    <Button
+        android:id="@+id/addPackage"
+        android:layout_width="105dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="@color/teal_700"
+        android:text=" Add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/updatePackage"
+        android:layout_width="118dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Update"
+        app:layout_constraintStart_toEndOf="@+id/addPackage"
+        app:layout_constraintTop_toTopOf="@+id/addPackage"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/deletePackage"
+        android:layout_width="104dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Delete"
+        app:layout_constraintStart_toEndOf="@+id/updatePackage"
+        app:layout_constraintTop_toTopOf="@+id/addPackage"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

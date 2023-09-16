@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neutral">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="411dp"
+        android:layout_height="595dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="327sp"
+                android:clickable="true"
+                android:clipToPadding="false"
+                android:contextClickable="false"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:1"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imageView173"
+                    android:layout_width="357dp"
+                    android:layout_height="86dp"
+                    android:src="@drawable/aegean" />
+
+                <TextView
+                    android:id="@+id/textView942"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="cursive"
+                    android:text="5 Days 550$"
+                    android:textColor="#302D2D"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/img43"
+                    android:layout_width="268dp"
+                    android:layout_height="91dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="1.7"
+                    android:scaleY="1.2"
+                    android:src="@drawable/la" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/la"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="327sp"
+                android:clickable="true"
+                android:clipToPadding="false"
+                android:contextClickable="false"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:2"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imageView129"
+                    android:layout_width="359dp"
+                    android:layout_height="71dp"
+                    android:src="@drawable/skyexpress" />
+
+                <TextView
+                    android:id="@+id/textView1103"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="cursive"
+                    android:text="8 Days 340$ "
+                    android:textColor="#201D1D"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/img325"
+                    android:layout_width="209dp"
+                    android:layout_height="109dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="1.7"
+                    android:src="@drawable/barcelona" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="46dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/barcelona"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="327sp"
+                android:animationCache="false"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView631"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:3"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imageView1215"
+                    android:layout_width="355dp"
+                    android:layout_height="57dp"
+                    android:src="@drawable/ryanair" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="106dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="bottom|center|center_vertical"
+                    android:fontFamily="cursive"
+                    android:text="7 Days 350$"
+                    android:textColor="#2D2E2D"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/img113"
+                    android:layout_width="196dp"
+                    android:layout_height="128dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="2"
+                    android:src="@drawable/london" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/london"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="327sp"
+                android:clickable="true"
+                android:clipToPadding="false"
+                android:contextClickable="false"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView512"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:4"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imageView146"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:src="@drawable/olympic" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="126dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="bottom|center|center_vertical"
+                    android:background="#FFFFFF"
+                    android:fontFamily="cursive"
+                    android:text="8 Days 330$"
+                    android:textColor="#3A3636"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/img122"
+                    android:layout_width="129dp"
+                    android:layout_height="213dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="2"
+                    android:scaleY="1.5"
+                    android:src="@drawable/paris" />
+
+                <TextView
+                    android:id="@+id/textView332"
+                    android:layout_width="129dp"
+                    android:layout_height="47dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/paris"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+                android:animationCache="false"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView1215"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:5"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="106dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="bottom|center|center_vertical"
+                    android:fontFamily="cursive"
+                    android:text="4 Days 150$"
+                    android:textColor="#2D2E2D"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="357dp"
+                    android:layout_height="86dp"
+                    android:src="@drawable/aegean" />
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="196dp"
+                    android:layout_height="128dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="2"
+                    android:src="@drawable/london" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/london"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+                android:clickable="true"
+                android:clipToPadding="false"
+                android:contextClickable="false"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView32432"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:6"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="126dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="bottom|center|center_vertical"
+                    android:background="#FFFFFF"
+                    android:fontFamily="cursive"
+                    android:text="6 Days 280$"
+                    android:textColor="#3A3636"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="355dp"
+                    android:layout_height="57dp"
+                    android:src="@drawable/ryanair" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="129dp"
+                    android:layout_height="213dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="2"
+                    android:scaleY="1.5"
+                    android:src="@drawable/paris" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="129dp"
+                    android:layout_height="47dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/paris"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card7"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+                android:clickable="true"
+                android:clipToPadding="false"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView2131"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:7"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="207dp"
+                    android:layout_height="155dp"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="cursive"
+                    android:gravity="bottom|center|center_vertical"
+                    android:text="2 Days 250$"
+                    android:textColor="#1E1C1C"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:clickable="true"
+                    android:src="@drawable/olympic" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="208dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="1.7"
+                    android:src="@drawable/bahamas"
+                    tools:ignore="ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/bahamas"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+                android:clickable="true"
+                android:clipToPadding="false"
+                android:contextClickable="false"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView21325"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:8"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="cursive"
+                    android:text="3 Days 450$"
+                    android:textColor="#302D2D"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="359dp"
+                    android:layout_height="71dp"
+                    android:src="@drawable/skyexpress" />
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="268dp"
+                    android:layout_height="91dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="1.7"
+                    android:scaleY="1.2"
+                    android:src="@drawable/la" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/la"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card9"
+                android:layout_width="match_parent"
+                android:layout_height="327dp"
+                android:clickable="true"
+                android:clipToPadding="false"
+                android:contextClickable="false"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="20dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/textView0909"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Code:9"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView110"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="cursive"
+                    android:text="5 Days 220$ "
+                    android:textColor="#201D1D"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="361dp"
+                    android:layout_height="73dp"
+                    android:src="@drawable/aegean" />
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="209dp"
+                    android:layout_height="109dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleX="1.7"
+                    android:src="@drawable/barcelona" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="46dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/barcelona"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:insetLeft="5dp"
+                android:scaleY="1"
+                android:text="Show Package Details"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text=" "
+                android:textColor="#3C3131"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

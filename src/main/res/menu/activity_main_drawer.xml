@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_svgrepo_com"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_Destinations"
+            android:icon="@drawable/ic_travel_agency_svgrepo_com"
+            android:title="@string/menu_Destinations" />
+        <item
+            android:id="@+id/nav_Agencies"
+            android:icon="@drawable/agencies"
+            android:title="@string/menu_Agencies" />
+        <item
+            android:id="@+id/nav_Packages"
+            android:icon="@drawable/packages"
+            android:title="@string/menu_Packages" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/nav_Query"
+            android:icon="@drawable/ic_question_svgrepo_com"
+            android:title="Queries"/>
+
+    </group>
+</menu>
